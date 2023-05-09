@@ -9,9 +9,9 @@ function actualitzaRellotja(){
         if (minut < 10) minut = "0" + minut
         if (segons < 10) segons = "0" + segons
 
-        horaImprimible = hora + " : " + minut + " : " segons
+        horaImprimible = hora + " : " + minut + " : " + segons
 
-        document.title = horaImprimible
+        //document.title = horaImprimible
         horaActual.innerHTML= horaImprimible
 
         setTimeout("actualitzaRellotja()",1000)
