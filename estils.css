@@ -1,0 +1,213 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #canvas {
+    width: 70%;
+    height: 70%;
+    border: none;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .slice-name {
+      font-size: 12px;
+      padding: 5px;
+    }
+    *{
+      font-family: 'Bungee', cursive;
+  }
+  body, html{
+      height: 100%;
+      margin:0;
+  }
+  .wrapper{
+      height: 100%;
+      background-color:white;
+  }
+  .name-web{
+      margin-top:3rem;
+      font-size: 4rem;
+  }
+  .content{
+      position:absolute;
+      top:60%;
+      left:50%;
+      width:90%;
+      text-align: center;
+      transform: translate(-50%, -50%);
+  }
+  .card{
+      display: inline-block;
+      margin:20px;
+      border: 1px solid rgb(207, 207, 207);
+      background-color:white;
+      border-radius: 5px;
+      overflow: hidden;
+      transition: background-color .5s;
+  }
+  .card h2{
+      font-size: 1.5rem;
+  }
+  img{
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .btn-contact{
+      margin: 0 auto;
+      text-align:center;
+      border-radius:5px;
+      width:150px;
+      border:1px solid gray;
+      cursor:pointer;
+      transition: background-color .5s;
+      margin-top:2rem;
+  }
+  .sections{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .container-btn-mode{
+      position: absolute;
+      top:20px;
+      right: 30px;
+      cursor: pointer;
+      z-index: 2;
+      font-size:0;
+    }
+    .btn-mode{
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+      border:2px solid black;
+      transition: background-color .5s;
+    }
+    .btn-mode i {
+      display: block;
+      font-size: 17px;
+      text-align: center;
+      line-height: 30px;
+    }
+    .btn-mode.sun{
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-right: 1px solid transparent;
+    }
+    .btn-mode.moon{
+      border-top-right-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .active{
+      background-color:black;
+      color:#ffcd5c !important;
+  }
+  .dark-mode{
+      background-color: #0e0e0e;
+      transition:background-color .5s;
+    }
+    .dark-mode .card{
+      background-color: #1A1C1E;
+    }
+    .dark-mode h1, .dark-mode h2, .dark-mode .btn-contact{
+      color:white;
+    }
+    .dark-mode .btn-mode{
+      background-color:#1A1C1E;
+      border:1px solid white;
+      color:white;
+    }
+  
+    @import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
+  
+    img {
+        width: 5%;
+      }
+      
+      h1 {
+        font-family: 'clockicons', sans-serif;
+        color: #2e8b57;
+        text-align: center;
+        border: 0ch;
+      }
+      
+      div img,
+      div h1 {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      
+      .timer {
+        margin-top: 50px;
+        text-align: center;
+      }
+      
+      .timer p {
+        font-size: 1.2em;
+      }
+      
+      .timer input {
+        padding: 5px;
+        font-size: 1.2em;
+      }
+      
+      .timer button {
+        margin-left: 5px;
+        padding: 5px 10px;
+        font-size: 1.2em;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      .timer button:hover {
+        background-color: #2e8b57;
+      }
+      
+      .tempsRestant {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+      
+      p {
+        color:  #2e8b57;
+      }
+      .botones {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .botones button {
+        margin-right: 10px;
+        background-color: transparent;
+        border: none;
+        font-size: 24px;
+        color: #555;
+    }
+    .botones button:focus {
+        outline: none;
+    }
+    body.light-mode {
+        background-color: #fff;
+        color: #000;
+    }
+    body.dark-mode {
+        background-color: #333;
+        color: #fff;
+    }
