@@ -1,6 +1,58 @@
+
 @import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
-h1 {
-font-family: 'clockicons', sans-serif;
-color: magenta;
-text-align: center;
-}
+
+img {
+    width: 5%;
+  }
+  
+  h1 {
+    font-family: 'clockicons', sans-serif;
+    color: #2e8b57;
+    text-align: center;
+    border: 0ch;
+  }
+  
+  div img,
+  div h1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .timer {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .timer p {
+    font-size: 1.2em;
+  }
+  
+  .timer input {
+    padding: 5px;
+    font-size: 1.2em;
+  }
+  
+  .timer button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .timer button:hover {
+    background-color: #2e8b57;
+  }
+  
+  .tempsRestant {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  p {
+    color:  #2e8b57;
+  }

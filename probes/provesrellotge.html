@@ -9,10 +9,19 @@
     <link rel="stylesheet" href="reloj_v3prova.css">
     <script type="text/javascript" src="reloj_v3prova.js"></script>
 <body onload="actualitzaRellotja()">
-    <div>
-        <img src="" alt="">
+    <div class="timer">
+        <img src="b29e095a848b318b2185991967df758c-golpe-de-reloj-analogico-simple.png" alt="rellotge">
         <h1 id="horaActual">hh:mm:ss</h1>
     </div>
-    
+    <div class="timer">
+        <p>Temporitzador:</p>
+        <input type="time" id="temps" value="00:00:00">
+        <button onclick="startTemporitzador()">Començar</button>
+        <button onclick="stopTemporitzador()">Aturar</button>
+    </div>
+    <div class="tempsRestant">
+        <p>Temps restant:</p>
+        <p id="tempsRestantImprimible"></p>
+    </div>
 </body>
 </html>
