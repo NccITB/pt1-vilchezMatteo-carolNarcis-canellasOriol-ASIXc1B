@@ -100,7 +100,7 @@ function actualitzaRellotja(){
       return;
     }
     if (tempsRestant === 4) {
-      let audio = new Audio('rulesonido.mp3');
+      let audio = new Audio('relojsonido.mp3');
       audio.play();
     }
     let hours = Math.floor(tempsRestant / 3600);
@@ -252,3 +252,4 @@ function actualitzaRellotja(){
       alert(`El nombre seleccionado es: ${nextName}`);
      }, 5600);
   });
+  

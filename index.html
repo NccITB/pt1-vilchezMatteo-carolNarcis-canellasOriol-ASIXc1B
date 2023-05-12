@@ -8,7 +8,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ruleta</title>
+    <meta name="autor" content="Oriol Canellas,Narcis Carol i Matteo Vilchez">
+    <meta name="descripcio" content="M04 UF3 A1">
+    <meta name="datacreated" content="12/05/2023">
+    <title>Ruleta y Temporitzador</title>
     <link rel="stylesheet" href="estils.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -33,15 +36,16 @@
       <div class="container">
         <canvas id="canvas" width="500" height="500"></canvas>
         <button id="spin-btn">Girar</button> <!-- Agregado un ID para el botón -->
-        <audio id="audio" src="rulesonido.mp3"></audio> <!-- Agregado un elemento de audio -->
+        <audio id="audio" src="sonidoruleta.mp3"></audio> <!-- Agregado un elemento de audio -->
       </div>
       </div>
-      <script src="d.js"></script>
     </div>
+    
+
 <div id="rellotge">
     <div class="timer">
         <img src="b29e095a848b318b2185991967df758c-golpe-de-reloj-analogico-simple.png" alt="rellotge">
-        <h1 id="horaActual">hh:mm:ss</h1>
+        <h2 id="horaActual">hh:mm:ss</h2>
     </div>
     <div class="timer">
         <p>Temporitzador:</p>
@@ -51,8 +55,9 @@
     </div>
     <div class="tempsRestant">
         <p>Temps restant:</p>
-        <p id="tempsRestantImprimible"></p>
+        <p id="tempsRestantImprimible">00:00:00</p>
     </div>
 </div>
+<script src="script.js"></script>
   </body>
 </html>

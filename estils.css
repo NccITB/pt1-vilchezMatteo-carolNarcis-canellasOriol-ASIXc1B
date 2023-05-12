@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
+  
 .container {
     display: flex;
     justify-content: center;
@@ -132,24 +134,19 @@
       color:white;
     }
   
-    @import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
-  
+    
     img {
         width: 5%;
       }
       
-      h1 {
+      h2 {
         font-family: 'clockicons', sans-serif;
         color: #2e8b57;
         text-align: center;
         border: 0ch;
       }
       
-      div img,
-      div h1 {
-        display: inline-block;
-        vertical-align: middle;
-      }
+      
       
       .timer {
         margin-top: 50px;
@@ -203,11 +200,11 @@
     .botones button:focus {
         outline: none;
     }
-    body.light-mode {
+    .body.light-mode {
         background-color: #fff;
         color: #000;
     }
-    body.dark-mode {
+    .body.dark-mode {
         background-color: #333;
         color: #fff;
     }
